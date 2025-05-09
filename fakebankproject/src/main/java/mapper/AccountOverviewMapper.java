@@ -13,6 +13,7 @@ public class AccountOverviewMapper {
         dto.setAccountNumber(accountOverview.getAccountNumber());
         dto.setBalance(accountOverview.getBalance());
         dto.setDefaultCurrency(accountOverview.getDefaultCurrency());
+
         return dto;
     }
 
