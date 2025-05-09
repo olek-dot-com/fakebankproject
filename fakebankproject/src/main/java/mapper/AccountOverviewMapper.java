@@ -14,6 +14,7 @@ public class AccountOverviewMapper {
         dto.setBalance(accountOverview.getBalance());
         dto.setDefaultCurrency(accountOverview.getDefaultCurrency());
 
+
         return dto;
     }
 
