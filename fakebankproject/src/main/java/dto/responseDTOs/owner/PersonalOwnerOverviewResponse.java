@@ -1,6 +1,6 @@
-package dto;
+package dto.responseDTOs.owner;
 
-public class PersonalOwnerDTO {
+public class PersonalOwnerOverviewResponse {
     private String firstName;
     private String lastName;
     private String email;
