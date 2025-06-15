@@ -1,8 +1,8 @@
 package mapper;
 
-import dto.requestDTOs.owner.RegisterPersonalOwnerRequest;
-import mapper.owner.RegisterPersonalOwnerRequestMapper;
-import model.PersonalOwner;
+import org.fakebankproject.fakebankproject.dto.requestDTOs.owner.RegisterPersonalOwnerRequest;
+import org.fakebankproject.fakebankproject.mapper.owner.RegisterPersonalOwnerRequestMapper;
+import org.fakebankproject.fakebankproject.model.PersonalOwner;
 import org.junit.jupiter.api.Test;
 import org.mapstruct.factory.Mappers;
 

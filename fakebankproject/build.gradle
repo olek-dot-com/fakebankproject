@@ -39,6 +39,12 @@ dependencies {
 	annotationProcessor 'org.mapstruct:mapstruct-processor:1.5.5.Final'
 	implementation 'jakarta.validation:jakarta.validation-api:3.0.2'
 	implementation 'org.hibernate.validator:hibernate-validator:8.0.1.Final'
+	implementation 'io.github.cdimascio:dotenv-java:3.0.0'
+	runtimeOnly     'org.postgresql:postgresql'
+	implementation 'me.paulschwarz:spring-dotenv:3.0.0'
+	implementation 'org.postgresql:postgresql'
+	implementation 'org.springframework.boot:spring-boot-starter-actuator'
+
 }
 tasks.named('test') {
 	useJUnitPlatform()
