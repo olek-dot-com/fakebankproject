@@ -56,7 +56,7 @@ public abstract class Owner {
      */
     @NotBlank(message = "Phone number is required")
     @Pattern(regexp = "\\d{9}", message = "Phone number must be exactly 9 digits")
-    @Column(name = "phone_number", nullable = false, length = 9)
+    @Column(name = "phone_number", nullable = false, length = 9, unique = true)
     private String phoneNumber;
 
     /**

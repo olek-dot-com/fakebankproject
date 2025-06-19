@@ -13,7 +13,7 @@ import java.util.Random;
 
 @Service
 @RequiredArgsConstructor
-public class PersonalOwnerService {
+public class PersonalOwnerRegistrationService {
 
     private final PersonalOwnerRepository personalOwnerRepository;
     private final RegisterPersonalOwnerRequestMapper mapper;

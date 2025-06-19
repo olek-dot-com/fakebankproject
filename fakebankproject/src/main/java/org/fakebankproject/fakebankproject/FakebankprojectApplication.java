@@ -18,7 +18,8 @@ public class FakebankprojectApplication {
 		System.setProperty("spring.datasource.username", dotenv.get("DB_USER"));
 		System.setProperty("spring.datasource.password", dotenv.get("DB_PASSWORD"));
 		System.setProperty("spring.datasource.driver-class-name", "org.postgresql.Driver");
-
+		System.setProperty("jwt.secret", dotenv.get("JWT_SECRET"));
+		System.setProperty("jwt.expiration", dotenv.get("JWT_EXPIRATION"));
 		SpringApplication.run(FakebankprojectApplication.class, args);
 	}
 }
